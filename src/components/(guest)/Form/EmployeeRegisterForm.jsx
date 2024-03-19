@@ -73,7 +73,7 @@ export default function EmployeeRegisterForm() {
       <p className="custom-label">Your password</p>
       <InputAnimated type="password" name="password" className={`${errors?.password ? 'error-input' : ''}`}/>
       <p className="error-message">{errors?.password}</p>
-      <Button type="submit" className="w-full uppercase mt-8 py-6">Sign Up</Button>
+      <Button name="signupbutton" type="submit" className="w-full uppercase mt-8 py-6">Sign Up</Button>
     </form>
   )
 }

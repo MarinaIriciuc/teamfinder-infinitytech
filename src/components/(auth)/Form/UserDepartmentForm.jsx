@@ -50,7 +50,7 @@ export default function UserDepartmentForm({memberId}) {
         {/*<SelectDepartment/>*/}
         <SelectCustom items={departments}/>
       </div>
-      <Button type="submit" className="mt-10 px-10 py-5">Save details</Button>
+      <Button name="save_details" type="submit" className="mt-10 px-10 py-5">Save details</Button>
     </form>
   )
 }

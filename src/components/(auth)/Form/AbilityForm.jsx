@@ -58,7 +58,7 @@ export default function AbilityForm() {
       <p className="custom-label">Description</p>
       <textarea className="custom-input" name="description" placeholder="Description"/>
       <p className="error-message">{errors?.description}</p>
-      <Button type="submit" className="mt-8">Add skill</Button>
+      <Button name="skillbutton" type="submit" className="mt-8">Add skill</Button>
     </form>
   )
 }

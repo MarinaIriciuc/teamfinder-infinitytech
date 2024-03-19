@@ -51,7 +51,7 @@ export default function DepartmentForm() {
       <p className="custom-label">Description</p>
       <textarea className={`h-28 ${errors?.description ? 'error-input' : 'custom-input'}`} name="description"/>
       <p className="error-message">{errors?.description}</p>
-      <Button type="submit" className="px-20 mt-10 uppercase text-[13px]">Add a department</Button>
+      <Button name="submit_department" type="submit" className="px-20 mt-10 uppercase text-[13px]">Add a department</Button>
     </form>
   )
 }

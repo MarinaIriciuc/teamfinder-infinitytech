@@ -33,7 +33,7 @@ export default function AbilitesDepartmentSection() {
 
   return (
     <div className="flex flex-col p-12 bg-gray-50 rounded-xl min-w-[500px] h-[500px] overflow-y-scroll ">
-      <Modal title={<Button className="bg-primary-purple uppercase text-[12px] px-14">Create a skill</Button>}
+      <Modal title={<Button name="skillbutton" className="bg-primary-purple uppercase text-[12px] px-14">Create a skill</Button>}
              subtitle="Create a skill for your department"
              formElement={<AbilityForm/>}
       />

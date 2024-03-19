@@ -14,12 +14,12 @@ export default function SignInURLForm() {
       <p className="custom-label">Sign In URL</p>
       <input type="text"
              className="custom-input"
-             value={`http://localhost:5173/register-employee?organizationId=${decodedToken?.organizationId}`}
+             value={`https://teamfinder-infinitytech-yz1j.vercel.app/register-employee?organizationId=${decodedToken?.organizationId}`}
              readOnly="readonly"
              ref={inputRef}
       />
       {/*<CopyToClipboard text={inputValue}>*/}
-      {/*  <Button className="mt-8 px-16 py-6">Copy link</Button>*/}
+      {/*  <Button name="addtoclipboard" className="mt-8 px-16 py-6">Copy link</Button>*/}
       {/*</CopyToClipboard>*/}
     </div>
   )

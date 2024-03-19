@@ -15,7 +15,7 @@ export default function HeroSectionContent() {
       </div>
       <div className="flex items-center mt-12">
         <Link to="/register">
-          <Button className="py-6 px-16">Try out platform</Button>
+          <Button name="try out" className="py-6 px-16">Try out platform</Button>
         </Link>
         <AnimatedTooltipUser/>
       </div>

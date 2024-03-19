@@ -44,10 +44,11 @@ export default function Departments() {
 
 
   return (
+
     <Layout>
       <div className="md:flex justify-between">
         <Modal
-          title={<Button className="bg-primary-purple md:m-0 mb-8 dark:bg-white uppercase text-[12px] px-14">Create a
+          title={<Button className="bg-primary-purple md:m-0 mb-8 dark:bg-white uppercase text-[12px] px-14" name="create-department-button">Create a
             department</Button>}
           subtitle="Add a department"
           formElement={<DepartmentForm/>}
@@ -57,10 +58,12 @@ export default function Departments() {
           <IoGrid
             onClick={() => setActiveGrid(false)}
             className={`text-[20px] ${!activeGrid ? 'text-primary-purple' : ''}`}
+            name="grid-icon"
           />
           <MdMenu
             onClick={() => setActiveGrid(true)}
             className={`text-[28px] ${activeGrid ? 'text-primary-purple' : ''}`}
+            name="menu-icon"
           />
         </div>
       </div>

@@ -29,7 +29,7 @@ export default function ProjectForm() {
           <SelectCustom/>
         </div>
       </div>
-      <Button className="px-20 mt-10">Adauga Proiect</Button>
+      <Button name="addproject" className="px-20 mt-10">Adauga Proiect</Button>
     </form>
   )
 }

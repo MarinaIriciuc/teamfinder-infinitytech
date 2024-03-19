@@ -13,7 +13,7 @@ export default function Banner() {
           atque cum cumque debitis doloremque illo in iure iusto, nemo non officia placeat porro quis rerum temporibus
           totam ut vel! Assumenda , nemo non officia placeat porro quis rerum temporibus totam ut vel! Assumenda?</p>
         <Link to="/login">
-          <Button className="py-6 px-20 mt-10">
+          <Button name="startnowlabel" className="py-6 px-20 mt-10">
             Start now
             <BiRightArrowAlt size={20}/>
           </Button>

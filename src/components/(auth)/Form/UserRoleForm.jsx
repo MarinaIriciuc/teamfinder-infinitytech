@@ -49,7 +49,7 @@ export default function UserRoleForm({memberId}) {
       <div className="mt-3">
         <SelectCustom items={roles}/>
       </div>
-      <Button type="submit" className="mt-10 px-10 py-5">Save details</Button>
+      <Button name="savedetails" type="submit" className="mt-10 px-10 py-5">Save details</Button>
     </form>
   )
 }

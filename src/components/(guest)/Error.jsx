@@ -12,7 +12,7 @@ export default function Error() {
       <p className="text-[25px] my-5">We couldn't find what you're looking for, but it's probabily in here something
         !</p>
       <Link to="/">
-        <Button className="mt-5 py-6 px-16 bg-primary-purple">Back to homepage</Button>
+        <Button name="gobackhome" className="mt-5 py-6 px-16 bg-primary-purple">Back to homepage</Button>
       </Link>
     </div>
   )
